@@ -22,8 +22,9 @@
     margin: 0 16px;
     font-size: 24px;
 }
+
 .escola-imagem{
-    width: 50%;
+    width: 40%;
 }
 .escola{
     background-image: linear-gradient( rgb(43, 46, 226), rgb(72, 103, 202));
@@ -33,52 +34,36 @@
     align-items: center;
     padding: 30px;
 }
-
 .escola-div-conteudo{
-    sobre a escola
+    width: 60%;
     
-    O prédio do Colégio foi inaugurado em 1924, para funcionar a Escola Normal de Ponta Grossa. Em 1939, passa a ser sede do Ginásio Regente Feijó. Caracteriza-se por ser um marco na paisagem urbana pela beleza de sua construção, marcada pelo estilo eclético, apresentando vestígios do estilo clássico e da art-noveau.
+    }
+    .escola-titulo{
+        padding: 24px 0;
+    }
+    .estudante-imagem{
+        width: 120px ;
     
-    Localização:Praça Barão do Rio Branco, 194 - CentroHorário de Visitação: segunda à sexta-feira em horário comercial.Entrada: GratuitaTelefone: (0**42) 3225-1741
-    imagem-regente2
-width: 35%;
-
-}
-.escola-titulo{
-    padding: 24px 0;<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="sttyle.css">
-    </head>
-    <body>
-        <header class="cabeçalho">
-          <img class="cabeçalho-imagem" src="logo regente.png" alt="logo do regente feijó">
-        <ul class="cabeçalho-lista">
-            <li class="cabeçalho-lista-item">Escola</li>
-            <li class="cabeçalho-lista-item">Estudante</li>
-        </ul>
-        </header>
-        
-        
-    </body>
-    </html>
+    }
     
-    Style.css
-}
-
-
-.estudante-imagem{
-    width: 120px ;
-
-}
-
-.estudante-icone{
-    width: 24px; ;
-}
-
-.estudante-div{
-    text-align: center;
-}
+    .estudante-icone{
+        width: 24px; ;
+    }
+    
+    .estudante-div{
+        text-align: center;
+    }
+    
+    .estudante-div{
+        text-align: center;
+    }
+    
+    .estudante-título{
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .estudantes-todos{
+        display: grid;
+        grid-template-columns: 200% 200% 200% 200% 200%;
+    }
